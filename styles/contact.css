@@ -1,0 +1,72 @@
+.page-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.page-title h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 32px;
+}
+
+.contact-info,
+.contact-form-box {
+  background-color: var(--white);
+  padding: 32px;
+  border-radius: 10px;
+  border: 1px solid #e5ddd3;
+}
+
+.contact-info h2,
+.contact-form-box h2 {
+  font-size: 22px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.info-item {
+  margin-bottom: 18px;
+}
+
+.info-item h3 {
+  font-size: 15px;
+  margin-bottom: 4px;
+  color: var(--text-color);
+}
+
+.info-item p {
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d5ccc0;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.contact-form-box button {
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
