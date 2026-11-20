@@ -1,0 +1,36 @@
+.page-header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.pricing-section {
+    max-width: 900px;
+    margin: 0 auto 45px auto;
+    padding: 0 20px;
+}
+
+.pricing-section h2 {
+    margin-bottom: 16px;
+}
+
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.pricing-table th,
+.pricing-table td {
+    border: 1px solid #cccccc;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.pricing-table th {
+    background-color: #faedcd;
+    font-weight: bold;
+}
+
+.pricing-table tr:nth-child(even) {
+    background-color: #fefae0;
+}
