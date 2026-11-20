@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation - Sweet & Savory</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Sweet & Savory</h2>
+
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero reservation-hero">
+        <div class="hero-content">
+            <h1>Reservasi Meja</h1>
+            <p>Pesan meja Anda dan nikmati pengalaman makan terbaik.</p>
+        </div>
+    </section>
+
+    <main class="container">
+
+        <section class="section">
+            <h2>Form Reservasi</h2>
+
+            <form class="reservation-form">
+
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama"
+                    placeholder="Masukkan nama Anda" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"
+                    placeholder="Masukkan email Anda" required>
+
+                <label for="telepon">Nomor Telepon</label>
+                <input type="tel" id="telepon" name="telepon"
+                    placeholder="Masukkan nomor telepon" required>
+
+                <label for="tanggal">Tanggal Reservasi</label>
+                <input type="date" id="tanggal" name="tanggal" required>
+
+                <label for="jam">Jam Reservasi</label>
+                <select id="jam" name="jam" required>
+                    <option value="">Pilih Jam</option>
+                    <option>10:00</option>
+                    <option>11:00</option>
+                    <option>12:00</option>
+                    <option>13:00</option>
+                    <option>14:00</option>
+                    <option>17:00</option>
+                    <option>18:00</option>
+                    <option>19:00</option>
+                    <option>20:00</option>
+                </select>
+
+                <label for="jumlah">Jumlah Orang</label>
+                <input type="number" id="jumlah" name="jumlah"
+                    min="1" placeholder="Jumlah orang" required>
+
+                <label for="catatan">Catatan Tambahan</label>
+                <textarea id="catatan" name="catatan"
+                    placeholder="Tulis permintaan khusus Anda"></textarea>
+
+                <button type="submit" class="btn">
+                    Kirim Reservasi
+                </button>
+
+            </form>
+        </section>
+
+        <section class="section">
+            <h2>Tabel Jam Ramai</h2>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Hari</th>
+                            <th>Jam</th>
+                            <th>Tingkat Keramaian</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Senin - Jumat</td>
+                            <td>11:00 - 13:00</td>
+                            <td>Sedang</td>
+                        </tr>
+
+                        <tr>
+                            <td>Senin - Jumat</td>
+                            <td>18:00 - 20:00</td>
+                            <td>Ramai</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sabtu - Minggu</td>
+                            <td>11:00 - 14:00</td>
+                            <td>Ramai</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sabtu - Minggu</td>
+                            <td>18:00 - 21:00</td>
+                            <td>Sangat Ramai</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sweet & Savory. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
