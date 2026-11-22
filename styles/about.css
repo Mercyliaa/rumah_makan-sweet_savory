@@ -74,6 +74,7 @@ body {
     text-align: right;
     max-width: 33%;
     margin-left: auto;
+    background: linear-gradient(to left, rgba(20, 20, 20, 0.9) 35%, rgba(20, 20, 20, 0));
     padding: 50px 25px 85px 25vw;
 }
 
