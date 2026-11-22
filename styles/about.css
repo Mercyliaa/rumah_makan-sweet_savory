@@ -111,6 +111,12 @@ body {
     text-decoration: none;
     padding: 20px;
     margin: 5px;
+    transition: background-color 0.3s linear, transform 0.3s ease;
+}
+
+.about a:hover {
+    background-color: #578ae3;
+    transform: scale(1.05)
 }
 
 /* Footer */
