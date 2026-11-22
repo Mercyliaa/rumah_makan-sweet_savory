@@ -106,3 +106,9 @@ body {
     width: 100%;
     display: block;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 100px;
+}
