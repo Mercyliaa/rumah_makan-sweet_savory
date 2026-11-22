@@ -81,6 +81,7 @@ body {
     max-width: 40%;
 
 }
+
 .gallery-desc h1 {
     text-align: center;
     font-size: 55px;
@@ -93,4 +94,15 @@ body {
     text-align: center;
     color: aliceblue;
     font-size: 30px;
+}
+
+#gallery {
+    width: 80%;
+    margin: auto;
+}
+
+.gallery-item img {
+    height: auto;
+    width: 100%;
+    display: block;
 }
