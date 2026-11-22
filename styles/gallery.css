@@ -79,4 +79,18 @@ body {
     margin: auto;
     margin-bottom: 40px;
     max-width: 40%;
+
+}
+.gallery-desc h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: "Julius Sans One", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#gallery h2 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
 }
