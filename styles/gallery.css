@@ -60,3 +60,9 @@ body {
     font-size: 35px;
     font-weight: bold;
 }
+
+/* Gallery */
+#gallery .gallery-desc {
+    background-image: url(/assets/images/gallery/gallery-sweet-savory.png);
+    background-size: cover;
+}
