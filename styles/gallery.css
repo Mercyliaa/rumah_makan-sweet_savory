@@ -112,3 +112,11 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 60px 100px;
 }
+
+.gallery > .gallery-item {
+    background-color: rgb(40, 40, 40);
+    padding: 12px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-bottom: 0;
+}
