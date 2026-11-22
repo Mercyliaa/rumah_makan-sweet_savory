@@ -68,3 +68,27 @@ body {
     background-size: cover; 
     background-position: center;
 }
+
+.about {
+    color: aliceblue;
+    text-align: right;
+    max-width: 33%;
+    margin-left: auto;
+    padding: 50px 25px 85px 25vw;
+}
+
+.about h1 {
+    margin: auto;
+    font-size: 55px;
+    font-family:"Julius Sans One", sans-serif;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.about .subheading {
+    font-size: 22px;
+    color: #9ab5e2;
+}
