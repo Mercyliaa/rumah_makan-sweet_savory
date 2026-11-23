@@ -40,6 +40,12 @@ body {
     font-size: 20px;
     color: aliceblue;
     text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar ul a:hover {
+    color: #578ae3;
+    transform: scale(1.05)
 }
 
 /* Logo */
