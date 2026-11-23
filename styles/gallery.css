@@ -135,3 +135,16 @@ body {
     text-decoration: none;
     z-index: 10;
 }
+
+/* Footer */
+footer {
+    background-color: rgb(20, 20, 20);
+    padding: 5px 30px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
