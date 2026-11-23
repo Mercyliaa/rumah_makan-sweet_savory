@@ -140,6 +140,12 @@ body {
     border-radius: 10px;
     text-decoration: none;
     z-index: 10;
+    transition: background-color 0.3s linear, transform 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #578ae3;
+    transform: scale(1.05);
 }
 
 /* Footer */
