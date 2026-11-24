@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation | Sweet & Savory</title>
+    <link rel="stylesheet" href="../styles/restaurant.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="../index.html" class="logo">Sweet <span>&</span> Savory.</a>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="catering.html">Catering</a>
+        <a href="reservation.html" class="active">Reservation</a>
+    </nav>
+</header>
+
+<section class="reservation-hero">
+    <div class="hero-overlay">
+        <p class="eyebrow">YOUR TABLE IS WAITING</p>
+        <h1>Make Every Meal<br><span>Special.</span></h1>
+        <p>
+            Reservasikan meja Anda dan nikmati pengalaman
+            bersantap yang menyenangkan bersama kami.
+        </p>
+        <a href="#booking" class="btn">Reservasi Sekarang</a>
+    </div>
+</section>
+
+<main>
+
+    <section class="section intro">
+        <p class="eyebrow">WELCOME TO OUR RESTAURANT</p>
+        <h2>Tempat Terbaik untuk Berkumpul</h2>
+        <p>
+            Nikmati makanan lezat dalam suasana nyaman.
+            Kami siap menyambut Anda dan orang-orang tersayang.
+        </p>
+    </section>
+
+    <section class="booking-section section" id="booking">
+
+        <div class="booking-image">
+            <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1000"
+                alt="Interior restoran yang nyaman">
+
+            <div class="image-caption">
+                <h3>A Wonderful Dining Experience</h3>
+                <p>Enjoy your special moments with us.</p>
+            </div>
+        </div>
+
+        <div class="booking-form-container">
+            <p class="eyebrow">BOOK YOUR TABLE</p>
+            <h2>Form Reservasi</h2>
+            <p class="form-description">
+                Silakan isi informasi berikut untuk memesan meja.
+            </p>
+
+            <form class="reservation-form"
+                  action="#"
+                  method="get">
+
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama"
+                    placeholder="Masukkan nama lengkap" required>
+
+                <label for="telepon">Nomor Telepon</label>
+                <input type="tel" id="telepon" name="telepon"
+                    placeholder="Contoh: 081234567890" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"
+                    placeholder="Masukkan email" required>
+
+                <div class="form-row">
+                    <div>
+                        <label for="tanggal">Tanggal</label>
+                        <input type="date" id="tanggal"
+                            name="tanggal" required>
+                    </div>
+
+                    <div>
+                        <label for="jam">Jam</label>
+                        <select id="jam" name="jam" required>
+                            <option value="">Pilih jam</option>
+                            <option value="10:00">10:00</option>
+                            <option value="11:00">11:00</option>
+                            <option value="12:00">12:00</option>
+                            <option value="13:00">13:00</option>
+                            <option value="14:00">14:00</option>
+                            <option value="17:00">17:00</option>
+                            <option value="18:00">18:00</option>
+                            <option value="19:00">19:00</option>
+                            <option value="20:00">20:00</option>
+                        </select>
+                    </div>
+                </div>
+
+                <label for="jumlah">Jumlah Pengunjung</label>
+                <input type="number" id="jumlah" name="jumlah"
+                    min="1" max="30"
+                    placeholder="Berapa orang?" required>
+
+                <label for="catatan">Catatan Tambahan</label>
+                <textarea id="catatan" name="catatan"
+                    placeholder="Contoh: meja dekat jendela"></textarea>
+
+                <button type="submit" class="btn submit-btn">
+                    Kirim Reservasi
+                </button>
+
+                <p class="form-note">
+                    *Reservasi akan dikonfirmasi oleh pihak restoran.
+                </p>
+
+            </form>
+        </div>
+
+    </section>
+
+    <section class="section busy-section">
+        <div class="section-heading">
+            <p class="eyebrow">RESTAURANT SCHEDULE</p>
+            <h2>Informasi Jam Ramai</h2>
+            <p>
+                Perhatikan jadwal berikut untuk memilih waktu
+                kunjungan yang nyaman.
+            </p>
+        </div>
+
+        <div class="table-container">
+            <table class="busy-table">
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Jam</th>
+                        <th>Tingkat Keramaian</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Senin - Jumat</td>
+                        <td>11:00 - 13:00</td>
+                        <td><span class="status medium">Sedang</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Senin - Jumat</td>
+                        <td>18:00 - 20:00</td>
+                        <td><span class="status busy">Ramai</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Sabtu - Minggu</td>
+                        <td>11:00 - 14:00</td>
+                        <td><span class="status busy">Ramai</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Sabtu - Minggu</td>
+                        <td>18:00 - 21:00</td>
+                        <td><span class="status full">Sangat Ramai</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="reservation-note">
+        <h2>We Are Ready to Welcome You!</h2>
+        <p>
+            Terima kasih telah memilih Sweet & Savory.
+            Sampai bertemu di restoran kami!
+        </p>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <a href="../index.html" class="logo">Sweet <span>&</span> Savory.</a>
+    <p>Good Food, Good Mood, Good Memories.</p>
+    <p class="copyright">© 2026 Sweet & Savory. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
