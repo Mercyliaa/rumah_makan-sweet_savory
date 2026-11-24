@@ -70,7 +70,7 @@ body {
 /* About */
 #about {
     display: flex;
-    background-image: url(/assets/images/about/about-sweet-savory.png);
+    background-image: url(../assets/images/about/about-sweet-savory.png);
     background-size: cover; 
     background-position: center;
 }
