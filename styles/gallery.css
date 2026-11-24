@@ -69,7 +69,7 @@ body {
 
 /* Gallery */
 #gallery .gallery-desc {
-    background-image: url(/assets/images/gallery/gallery-sweet-savory.png);
+    background-image: url(../assets/images/gallery/gallery-sweet-savory.png);
     background-size: cover;
     padding: 20px;
     margin-bottom: 40px;
