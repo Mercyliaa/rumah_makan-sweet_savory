@@ -9,7 +9,7 @@ body {
 
 /* Header */
 #main-header {
-    background-color: rgb(20, 20, 20);
+    background: linear-gradient(135deg, #dbb59e, #dcad6c);
 }
 
 .navbar {
@@ -44,7 +44,7 @@ body {
 }
 
 .navbar ul a:hover {
-    color: #578ae3;
+    color: #8b5a2b;
     transform: scale(1.05)
 }
 
@@ -71,6 +71,8 @@ body {
 #about {
     display: flex;
     background-image: url(../assets/images/about/about-sweet-savory.png);
+    background-color: rgba(40, 10, 0, 0.2);
+    background-blend-mode: darken;
     background-size: cover; 
     background-position: center;
 }
@@ -97,7 +99,7 @@ body {
 
 .about .subheading {
     font-size: 22px;
-    color: #9ab5e2;
+    color: #dbb59c;
 }
 
 /* Tombol */
@@ -105,7 +107,7 @@ body {
     display: inline-block;
     font-size: 20px;
     font-weight: bold;
-    background-color: #3f65a5;
+    background-color: #ac8153;
     border-radius: 10px;
     color: aliceblue;
     text-decoration: none;
@@ -115,13 +117,13 @@ body {
 }
 
 .about a:hover {
-    background-color: #578ae3;
+    background-color: #8b5a2b;
     transform: scale(1.05)
 }
 
 /* Footer */
 footer {
-    background-color: rgb(20, 20, 20);
+    background: linear-gradient(135deg, #dbb59e, #dcad6c);
     padding: 5px 30px;
 }
 
