@@ -107,7 +107,7 @@ body {
     display: inline-block;
     font-size: 20px;
     font-weight: bold;
-    background-color: #c59b6d;
+    background-color: #ac8153;
     border-radius: 10px;
     color: aliceblue;
     text-decoration: none;
@@ -117,7 +117,7 @@ body {
 }
 
 .about a:hover {
-    background-color: #ac8153;
+    background-color: #8b5a2b;
     transform: scale(1.05)
 }
 
