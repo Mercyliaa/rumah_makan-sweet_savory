@@ -71,6 +71,8 @@ body {
 #about {
     display: flex;
     background-image: url(../assets/images/about/about-sweet-savory.png);
+    background-color: rgba(40, 10, 0, 0.2);
+    background-blend-mode: darken;
     background-size: cover; 
     background-position: center;
 }
