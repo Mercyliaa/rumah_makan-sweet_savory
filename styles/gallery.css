@@ -121,8 +121,9 @@ body {
 }
 
 .gallery > .gallery-item {
-    background-color: rgb(40, 40, 40);
-    padding: 12px;
+    background-color: white;
+    border: 1px solid #e8e0d5;
+    padding: 15px;
     border-radius: 10px;
     box-sizing: border-box;
     padding-bottom: 0;
