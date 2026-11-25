@@ -9,7 +9,7 @@ body {
 
 /* Header */
 #main-header {
-    background-color: rgb(20, 20, 20);
+    background: linear-gradient(135deg, #dbb59e, #dcad6c);
 }
 
 .navbar {
@@ -121,7 +121,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: rgb(20, 20, 20);
+    background: linear-gradient(135deg, #dbb59e, #dcad6c);
     padding: 5px 30px;
 }
 
