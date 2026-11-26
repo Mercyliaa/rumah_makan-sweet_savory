@@ -53,6 +53,7 @@ body{
 .navbar ul a:hover{
     color: #578ae3;
     transform: scale(1.05);
+}
 
 .navbar ul a:hover {
     color: #8b5a2b;
@@ -81,9 +82,9 @@ body{
 /* About */
 #about{
     min-height: 800px;
-
     background-image: url("../assets/images/about/about-sweet-savory.png");
     background-size: cover;
+}
 
 #about {
     display: flex;
@@ -120,6 +121,7 @@ body{
     font-size: 24px;
     color: #9ab5e2;
     margin-bottom: 20px;
+}
 
 .about p {
     font-size: 20px;
