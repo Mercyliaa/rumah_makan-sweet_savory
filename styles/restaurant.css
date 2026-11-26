@@ -1,0 +1,543 @@
+
+/* =========================================
+   SWEET & SAVORY - RESTAURANT WEBSITE
+   CATERING PAGE STYLES
+========================================= */
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fffaf5;
+    color: #35251e;
+    line-height: 1.7;
+}
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar {
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffaf5;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 15px rgba(60, 30, 10, 0.06);
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a2418;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.logo span {
+    color: #c77b36;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #5e5148;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+    position: relative;
+}
+
+.navbar nav a:hover,
+.navbar nav a.active {
+    color: #c77b36;
+}
+
+.navbar nav a.active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #c77b36;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+}
+
+/* =========================================
+   BUTTON
+========================================= */
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #b96e32;
+    color: white;
+    padding: 13px 27px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 1px solid #b96e32;
+}
+
+.btn:hover {
+    background-color: #8f4e20;
+    border-color: #8f4e20;
+    transform: translateY(-2px);
+}
+
+/* =========================================
+   CATERING HERO
+========================================= */
+
+.catering-hero {
+    min-height: 580px;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(28, 19, 13, 0.88),
+            rgba(28, 19, 13, 0.60),
+            rgba(28, 19, 13, 0.12)
+        ),
+        url("https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1800&q=85");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 8%;
+    color: white;
+}
+
+.hero-overlay {
+    max-width: 650px;
+}
+
+.eyebrow {
+    color: #c77b36;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.catering-hero .eyebrow {
+    color: #f0bd82;
+}
+
+.catering-hero h1 {
+    font-size: clamp(42px, 6vw, 75px);
+    line-height: 1.1;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+
+.catering-hero h1 span {
+    color: #e9b16d;
+}
+
+.catering-hero .hero-overlay > p:not(.eyebrow) {
+    max-width: 500px;
+    color: #f1e8df;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* =========================================
+   SECTION GENERAL
+========================================= */
+
+.section {
+    padding: 85px 8%;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 45px;
+}
+
+.section-heading h2,
+.intro h2 {
+    color: #39251b;
+    font-size: clamp(28px, 4vw, 42px);
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+.section-heading > p:not(.eyebrow),
+.intro > p:not(.eyebrow) {
+    color: #786a60;
+    font-size: 15px;
+}
+
+/* =========================================
+   INTRO
+========================================= */
+
+.intro {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.intro > p:not(.eyebrow) {
+    max-width: 650px;
+    margin: auto;
+}
+
+/* =========================================
+   CATERING PACKAGES
+========================================= */
+
+.packages {
+    background-color: #f6eee5;
+}
+
+.package-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.food-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(70, 40, 20, 0.07);
+    transition: 0.35s;
+}
+
+.food-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(70, 40, 20, 0.13);
+}
+
+.food-card img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.food-card:hover img {
+    transform: scale(1.04);
+}
+
+.food-info {
+    padding: 25px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #f5e5d2;
+    color: #a05e2b;
+    padding: 5px 12px;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.food-info h3 {
+    font-size: 22px;
+    color: #3b281c;
+    margin-bottom: 10px;
+}
+
+.food-info > p:not(.minimum) {
+    font-size: 14px;
+    color: #786a60;
+    min-height: 75px;
+}
+
+.price {
+    color: #b96e32;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 18px;
+}
+
+.price small {
+    color: #88786b;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.minimum {
+    color: #8b7b6d;
+    font-size: 12px;
+    border-top: 1px solid #eee4da;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+/* =========================================
+   DELIVERY SECTION
+========================================= */
+
+.delivery-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 65px;
+    padding: 90px 8%;
+    background-color: #fffaf5;
+}
+
+.delivery-image {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.delivery-image img {
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.delivery-image img:hover {
+    transform: scale(1.03);
+}
+
+.delivery-content h2 {
+    font-size: clamp(28px, 4vw, 42px);
+    line-height: 1.3;
+    margin-bottom: 20px;
+    color: #39251b;
+}
+
+.delivery-content > p:not(.eyebrow) {
+    color: #786a60;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.delivery-content ul {
+    list-style: none;
+    margin-bottom: 28px;
+}
+
+.delivery-content ul li {
+    padding: 9px 0 9px 28px;
+    position: relative;
+    color: #65564b;
+    font-size: 14px;
+}
+
+.delivery-content ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #b96e32;
+    font-weight: bold;
+}
+
+/* =========================================
+   ORDER TERMS
+========================================= */
+
+.terms {
+    background-color: #f6eee5;
+}
+
+.terms-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.term-item {
+    background-color: #fffaf5;
+    padding: 30px 25px;
+    border-radius: 10px;
+    border: 1px solid #eee0d1;
+    transition: 0.3s;
+}
+
+.term-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(70, 40, 20, 0.08);
+}
+
+.term-item span {
+    color: #c77b36;
+    font-size: 28px;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.term-item h3 {
+    color: #39251b;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.term-item p {
+    color: #786a60;
+    font-size: 13px;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+.footer {
+    background-color: #2e2018;
+    text-align: center;
+    padding: 45px 8%;
+    color: #d8c7b7;
+}
+
+.footer .logo {
+    display: inline-block;
+    color: #fffaf5;
+    margin-bottom: 12px;
+}
+
+.footer .logo span {
+    color: #d99755;
+}
+
+.footer > p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer .copyright {
+    color: #a99889;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/* =========================================
+   RESPONSIVE TABLET
+========================================= */
+
+@media (max-width: 1000px) {
+
+    .package-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .terms-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .delivery-section {
+        gap: 35px;
+    }
+
+    .delivery-image img {
+        height: 380px;
+    }
+}
+
+/* =========================================
+   RESPONSIVE MOBILE
+========================================= */
+
+@media (max-width: 650px) {
+
+    .navbar {
+        padding: 16px 5%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 23px;
+    }
+
+    .navbar nav {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar nav a {
+        font-size: 13px;
+    }
+
+    .catering-hero {
+        min-height: 500px;
+        padding: 60px 6%;
+        background-position: center;
+    }
+
+    .catering-hero h1 {
+        font-size: 43px;
+    }
+
+    .catering-hero .hero-overlay > p:not(.eyebrow) {
+        font-size: 14px;
+    }
+
+    .section {
+        padding: 60px 6%;
+    }
+
+    .package-grid {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .food-card img {
+        height: 230px;
+    }
+
+    .food-info {
+        padding: 22px;
+    }
+
+    .food-info > p:not(.minimum) {
+        min-height: auto;
+    }
+
+    .delivery-section {
+        grid-template-columns: 1fr;
+        padding: 60px 6%;
+        gap: 30px;
+    }
+
+    .delivery-image img {
+        height: 280px;
+    }
+
+    .terms-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .term-item {
+        padding: 25px;
+    }
+
+    .footer {
+        padding: 35px 6%;
+    }
+}
