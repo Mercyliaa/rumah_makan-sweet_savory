@@ -3,13 +3,14 @@
 
 /* Body */
 body {
+    background-color: #fcfaf8;
     font-family: "Afacad Flux", sans-serif;
     margin: 0;
 }
 
 /* Header */
 #main-header {
-    background-color: rgb(20, 20, 20);
+    background: linear-gradient(135deg, #dbb59e, #dcad6c);
 }
 
 .navbar {
@@ -44,7 +45,7 @@ body {
 }
 
 .navbar ul a:hover {
-    color: #578ae3;
+    color: #8b5a2b;
     transform: scale(1.05)
 }
 
@@ -71,10 +72,11 @@ body {
 #gallery .gallery-desc {
     background-image: url(../assets/images/gallery/gallery-sweet-savory.png);
     background-size: cover;
+    background-position: center;
     padding: 20px;
     margin-bottom: 40px;
     margin-inline: -12.5%;
-    background-color: rgba(0, 0, 0, 0.34);
+    background-color: rgba(40, 10, 0, 0.4);
     background-blend-mode: darken;
     text-align: center;
     color: aliceblue;
@@ -98,7 +100,7 @@ body {
 
 #gallery h2 {
     text-align: center;
-    color: aliceblue;
+    color: #666666;
     font-size: 30px;
 }
 
@@ -120,8 +122,9 @@ body {
 }
 
 .gallery > .gallery-item {
-    background-color: rgb(40, 40, 40);
-    padding: 12px;
+    background-color: white;
+    border: 1px solid #e8e0d5;
+    padding: 15px;
     border-radius: 10px;
     box-sizing: border-box;
     padding-bottom: 0;
@@ -134,7 +137,7 @@ body {
     font-weight: bold;
     right: 20px;
     bottom: 20px;
-    background-color: #3f65a5;
+    background-color: #ac8153;
     color: aliceblue;
     padding: 10px 15px;
     border-radius: 10px;
@@ -144,13 +147,13 @@ body {
 }
 
 .back-to-top:hover {
-    background-color: #578ae3;
+    background-color: #8b5a2b;
     transform: scale(1.05);
 }
 
 /* Footer */
 footer {
-    background-color: rgb(20, 20, 20);
+    background: linear-gradient(135deg, #dbb59e, #dcad6c);
     padding: 5px 30px;
     margin-top: 40px;
 }
