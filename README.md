@@ -87,14 +87,14 @@ rumah_makan-sweet_savory
 │   │   └── gallery
 │   │
 │   └── fonts
-│
 ├── pages
 │   ├── about.html
 │   ├── products.html
 │   ├── pricing.html
 │   ├── gallery.html
 │   └── contact.html
-│
+│   ├── catering.html
+│   └── reservation.html
 └── styles
     ├── global.css
     ├── index.css
@@ -103,6 +103,8 @@ rumah_makan-sweet_savory
     ├── pricing.css
     ├── gallery.css
     └── contact.css
+    ├── catering.css
+    └── reservation.css
 ```
 
 ---
